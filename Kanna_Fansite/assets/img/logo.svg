@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="400" height="200" role="img" aria-label="KH">
+  <title>KH Monogram - Bold</title>
+  <!-- Background is transparent by default -->
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="64" fill="#3d331d">
+    KH
+  </text>
+</svg>
