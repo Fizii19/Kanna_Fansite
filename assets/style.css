@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Host Grotesk";
+}
+
+:root {
+  --coklat: #3d331d;
+  --ijo: #bcd09f;
+}
+
+body {
+  background-color: #bcd09f;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 99999;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--coklat);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--coklat);
+}
+
+.logo span {
+  color: var(--coklat);
+  line-height: 1;
+  margin-left: 5px;
+}
+
+nav ul {
+  gap: 20px;
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--coklat);
+}
+
+nav button {
+  border: none;
+  border-radius: 1rem;
+  color: #3d331d;
+  width: 80px;
+  height: 30px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  position: relative;
+}
+
+#hero h1 {
+  font-family: "Unbounded";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12rem;
+  text-align: center;
+  color: white;
+}
+
+main section img {
+  width: 500px;
+  z-index: 10;
+}
+
+.about {
+  margin: 0 20px 20px 20px;
+  height: 100%;
+  background-color: aliceblue;
+  border-radius: 2rem;
+}
+
+h2 {
+  font-family: "Unbounded";
+}
+
+p {
+  font-family: "Host Grotesk";
+}
+
+h2,
+p {
+  color: var(--coklat);
+}
+
+li{
+  color: var(--coklat);
+
+}
+
+.about h2 {
+  color: var(--coklat);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.deskripsi-about {
+  padding: 30px;
+  gap: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.deskripsi-about img {
+  width: 400px;
+  border-radius: 1rem;
+}
+
+.text-desk {
+  width: 500px;
+}
+
+.text-desk p {
+  text-indent: 2em;
+  color: var(--coklat);
+}
+
+.text-desk ul li {
+  color: var(--coklat);
+  margin-left: 30px;
+}
+
+.gallery {
+  margin: 0 20px 20px 20px;
+  height: 100%;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+.deskripsi-gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 50px;
+}
+
+.deskripsi-gallery h2 {
+  font-size: 2rem;
+}
+
+.deskripsi-gallery p {
+  font-size: 1.5rem;
+}
+
+.gallery h2 {
+  text-align: center;
+}
+
+.wrapper-gal {
+  display: flex;
+  gap: 20px;
+}
+
+.foto-gallery {
+  column-count: 2;
+}
+
+.foto-gallery img {
+  object-fit: cover;
+  border-radius: 1rem;
+  transition: all 300ms;
+}
+.foto {
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 10px;
+}
+
+.foto-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.filmography{
+  border-radius: 1rem;
+  background-color: white;
+}        
+
+.ac {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.filmography h2{
+  padding: 20px;
+  text-align: center;
+}
+
+.deskripsi-filmography{
+  display: flex;
+}
+
+.ac img{
+  width: 100px;
+  border-radius: 1rem;
+}
